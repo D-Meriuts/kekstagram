@@ -11,3 +11,17 @@ const getRandomItnegralNumber = (min, max) => {
 };
 
 getRandomItnegralNumber(1, 10)
+// console.log(getRandomItnegralNumber(1, 10))
+
+
+// имя_функции(проверяемая_строка, максимальная длина);
+// Результат: true, если строка проходит по длине, и false — если не проходит
+const stringCount = (string , maxLength) => {
+
+  return string.length <= maxLength;
+
+}
+
+stringCount('Два слова', 140);
+console.log(stringCount('имя_функции(проверяемая_строка, максимальная длина)', 140));
+
