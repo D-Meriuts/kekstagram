@@ -23,5 +23,5 @@ const stringCount = (string , maxLength) => {
 }
 
 stringCount('Два слова', 140);
-console.log(stringCount('имя_функции(проверяемая_строка, максимальная длина)', 140));
+stringCount('имя_функции(проверяемая_строка, максимальная длина)', 140);
 
